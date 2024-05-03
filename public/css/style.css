@@ -1,0 +1,123 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #e3386a;
+    color: #fff;
+    height: 100px; 
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-name {
+    color: #fff;
+    font-size: 24px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.medium-logo {
+    max-width: 100px;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.form {
+    margin-top: 80px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 30px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 40px; 
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #e3386a;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-submit {
+    background-color: #e3386a;
+    color: #fff;
+}
+
+.btn-edit,
+.btn-delete {
+    background-color: #fff;
+    color: #e3386a;
+    padding: 10px 20px;
+    border: 2px solid #e3386a;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-buttons form {
+    margin-bottom: 5px; 
+    text-align: center;
+}
